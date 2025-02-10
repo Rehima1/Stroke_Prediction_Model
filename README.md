@@ -1,4 +1,4 @@
-# Stroke Prediction using Machine Learning
+# Stroke Prediction using Machine Learning 🧠
 
 ## Project Overview
 
@@ -37,21 +37,14 @@ The target variable is **stroke**, which indicates whether the patient had a str
 6. **Model Comparison:** The models are compared based on their performance metrics to identify the best-performing model.
 7. **Feature Importance Analysis:** The importance of features in the Random Forest model is analyzed.
 
-
-## How to RunClone the Repository:
-git clone (https://github.com/Rehima1/Stroke_Prediction_Model/blob/main/Stroke_Prediction_.ipynb)
-
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activateInstall Required Dependencies:
-pip install pandas numpy seaborn matplotlib scikit-learn imbalanced-learnRun the Script:
-python stroke_prediction.py
-
 ## Results
 Random Forest achieved the highest performance with an F1 score of 94% and an AUC-ROC score of 98%
 Logistic Regression and SVM provided reasonable performance but were outperformed by the Random Forest model.
+
 ![image](https://github.com/user-attachments/assets/3115647d-2d74-4356-9fc2-712648c58d26)
 
 ## Feature Importance
+
 ![image](https://github.com/user-attachments/assets/9903316a-7650-4424-8ada-159d03b7dbac)
 
 ## Contributing
